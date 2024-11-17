@@ -7,9 +7,8 @@
 
 name: Gradle Package
 
-on:
-  release:
-    types: [created]
+on: [push]
+  
 
 jobs:
   build:
